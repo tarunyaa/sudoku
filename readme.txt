@@ -1,44 +1,8 @@
-/**********************************************************************
- *  Project readme.txt template
- **********************************************************************/
+# Sudoku
+This program creates an interactive Sudoku game! 
 
+How to run the program: run the SudokuDemo class, there is a command line argument; Execution: java SudokuDemo <fileName.txt>. The text file should contain the sudoku that you want to solve
 
-Name: Tarunyaa
-PennKey: tarunyaa
-
-
-/**********************************************************************
- *  Please list all help, collaboration, and outside resources
- *  you used here. 
- *
- *  If you did not get any help in outside of TA office hours,
- *  and did not use any materials outside of the standard
- *  course materials and piazza, write the following statement below:
- *  "I did not receive any help outside of TA office hours.  I
- *  did not collaborate with anyone, and I did not use any
- *  resources beyond the standard course materials."
- **********************************************************************/
-
- I did not receive any help outside of TA office hours.  I
- did not collaborate with anyone, and I did not use any
- resources beyond the standard course materials.
-
-/**********************************************************************
- *  How to run the program:            
- **********************************************************************/
- run the SudokuDemo class, there is a command line argument
- Execution: java SudokuDemo <fileName.txt>
- The text file should contain the sudoku that you want to solve
-
-/**********************************************************************
- *  Any additional features you added beyond the assignment specifications
- **********************************************************************/
- 
- N/A
-
-/**********************************************************************
- *   Brief description of each file and its purpose                                    
- **********************************************************************/
  1. box.java:
     Creates a class that represents boxes in the sudoku. Each box object has the 
     attributes of it's value, row and column in the sudoku as well as whether it 
